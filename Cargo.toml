@@ -1,0 +1,18 @@
+[package]
+name = "chord_name"
+version = "0.1.0"
+edition = "2021"
+keywords = ["music", "audio", "midi", "chord", "theory"]
+categories = ["algorithms", "science", "mathematics"]
+description = "A library for working with chord names in music theory."
+repository = "https://github.com/TobiasGrothmann/chord_name"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+authors = ["Tobias Grothmann"]
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[dependencies]
+itertools = "0.13.0"
+lazy_static = "1.5.0"
